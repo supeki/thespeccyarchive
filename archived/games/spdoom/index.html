@@ -14,14 +14,23 @@
 			body {background-color:black;}			
 			p {color:white;}		
 		</style>
-		<script src="https://js-dos.com/v7/build/releases/latest/js-dos/js-dos.js"></script>
-        <link href="https://js-dos.com/v7/build/releases/latest/js-dos/js-dos.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="jsdos" />
-        <script>
-         emulators.pathPrefix = "https://js-dos.com/v7/build/releases/latest/js-dos/";
-         Dos(document.getElementById("jsdos")).run("https://speccy.maril.dev/archived/games/spdoom/DOOM.jsdos");
-        </script>
+		<iframe id="jsdos" frameborder="0"
+		    src="https://dos.zone/player/?bundleUrl=https%3A%2F%2Fspeccy.maril.dev%2Farchived%2Fgames%2Fspdoom%2FDOOM.jsdos&anonymous=1"
+		    allowfullscreen>
+		</iframe>
+		<script>
+		    window.onload = () => {
+		        document.getElementById("jsdos").focus();
+
+		        window.addEventListener("message", (e) => {
+		            if (e.data.message === "dz-player-exit") {
+		                document.getElementById("jsdos").style.display = "none";
+		                alert("js-dos exited");
+		            }
+		        });
+		    };
+		</script>
 	</body>
 </html>
