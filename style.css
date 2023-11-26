@@ -3,7 +3,7 @@
 	src: url("font/srb2fill.otf") format("opentype");
 }
 
-h1 {
+h1, h2, h3 {
 	font-family: 'SRB2FILL',Arial,sans-serif;
 	text-shadow: 2px 2px black;
 }
