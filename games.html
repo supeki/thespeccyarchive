@@ -1,24 +1,9 @@
-<!DOCTYPE html>
-
 <html>
 	<head>
-		<meta property="og:title" content="Games - The Speccy Archive" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://speccy.maril.dev/games.html" />
-		<meta property="og:image" content="https://speccy.maril.dev/graphics/games/spadv1.gif" />
-		<meta property="og:description" content="Check out games and add-ons featuring Speccy!" />
-		<meta name="theme-color" content="#FF00FF">
-
-		<title>Games - The Speccy Archive</title>
 		<link rel="stylesheet" type="text/css" href="style.css" /> 
 
 		<style>
 			.spadv {
-				width: 60%;
-				margin: auto;
-			}
-
-			.spadv2 {
 				display: flex;
 				flex: 1;
 			}
@@ -30,36 +15,34 @@
 		</style>
 	</head>
 
-	<body>
-		<div class="sidebar">
-			<a href="index.html" title="Home"><img src="graphics/logo.gif" style="width:65%; margin:auto; display:flex; justify-content:center; margin-bottom: 6px;"/></a>
-			<a href="about.html" title="About"><img src="graphics/about.gif" /></a>
-			<hr>
-			<a href="games.html" title="Games"><img src="graphics/games.gif" /></a>
-			<hr>
-			<a href="art.html" title="Art"  ><img src="graphics/art.gif"   /></a>
-		</div>
+	<body>			
+		<table style="">
+			<tr>
+				<h1 style="text-align:center; color:yellow; margin-top:16px;">Games</h1>
+				<hr>
+			</tr>
 
-		<main>
-			<h1 style="text-align:center; color:yellow;">Games</h1>
-			<hr>			
-			<div class="spadv">
+			<tr>
 				<h3 style="text-align:left; color:magenta;">Speccy Adventure Remake</h3>
-				<div class="spadv2">
+			</tr>
+
+			<tr>
+				<td width="50%">
 					<p style="text-align:left; color:white;">
 						Speccy Adventure was a singleplayer TGF game<br>made in 2022. It was lost alongside many other projects, but I have started work on remaking it.<br><br>It'll still be singleplayer, but the game will be expanded upon with new zones and gimmicks as I work on it.<br><br>You can download it here: <a href="https://drive.google.com/drive/folders/1Uy04rJU0JykVJo4XJapqYIA23f4-HhQp?usp=sharing"><img src="graphics/games/spadv.gif"/></a>
 					</p>
-					<div style="margin-left:32px; width:40%;">
-						<p style="text-align:center; color:yellow;">Screenshots
-						<div style="overflow-y:scroll; height:240px;">
-							<img class="game-img" src="graphics/games/spadv1.gif"/>
-							<img class="game-img" src="graphics/games/spadv2.gif"/>
-							<img class="game-img" src="graphics/games/spadv3.gif"/>
-						</div></p>
+				</td>
+
+				<td align="center">
+					<p align="center" style="color:yellow;">Screenshots</p>
+
+					<div style="overflow-y:scroll; width: 320px; height:240px;">
+						<img class="game-img" src="graphics/games/spadv1.gif"/>
+						<img class="game-img" src="graphics/games/spadv2.gif"/>
+						<img class="game-img" src="graphics/games/spadv3.gif"/>
 					</div>
-				</div>	
-			</div>
-			<hr>	
-		</main>
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>

@@ -1,0 +1,25 @@
+------------------------
+
+An error occurred within SRB2! Send this stack trace to someone who can help!
+Time of crash: Sun, 10 Dec 2023 14:25:33 -0600
+Cause: Segmentation fault
+
+Backtrace:
+../SRB2/bin/lsdl2srb2(+0x86f4b)[0x55868da83f4b]
+../SRB2/bin/lsdl2srb2(+0x8707c)[0x55868da8407c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fa83fd47520]
+../SRB2/bin/lsdl2srb2(G_SaveGameData+0x4)[0x55868db08644]
+../SRB2/bin/lsdl2srb2(I_Quit+0x47)[0x55868da863e7]
+../SRB2/bin/lsdl2srb2(+0x894aa)[0x55868da864aa]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fa83fd47520]
+/lib/x86_64-linux-gnu/libc.so.6(getdents64+0x17)[0x7fa83fdeb647]
+/lib/x86_64-linux-gnu/libc.so.6(readdir64+0x7c)[0x7fa83fdeb6fc]
+../SRB2/bin/lsdl2srb2(filesearch+0x136)[0x55868dc65d56]
+../SRB2/bin/lsdl2srb2(+0x867f8)[0x55868da837f8]
+../SRB2/bin/lsdl2srb2(I_LocateWad+0x207)[0x55868da871a7]
+../SRB2/bin/lsdl2srb2(D_SRB2Main+0xe5)[0x55868dab9bc5]
+../SRB2/bin/lsdl2srb2(main+0x59)[0x55868da83389]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7fa83fd2ed90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7fa83fd2ee40]
+../SRB2/bin/lsdl2srb2(_start+0x25)[0x55868da835d5]
+
