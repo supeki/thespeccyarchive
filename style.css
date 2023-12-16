@@ -10,34 +10,9 @@ h1, h2, h3 {
 
 p {
 	font-family: 'SRB2FILL',Arial,sans-serif;
-	text-shadow: 1px 1px black;
+	text-shadow: 2px 2px black;
 }
 
 frameset {
 	background-image: url("graphics/bg.gif");
-}
-
-main {
-	width: 100%;
-	margin: auto;
-	left: 72px;
-	position: fixed;
-}
-
-.sidebar {
-	width: 224px;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: #1D1D1D;
-	border-right: 1px solid;
-	border-color: white;
-	z-index: 1;
-}
-
-.sidebar a {
-	text-align: center;
-	display: block;
-	margin: 2px;
 }
