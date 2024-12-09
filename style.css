@@ -13,6 +13,7 @@ p {
 	text-shadow: 2px 2px black;
 }
 
-frameset {
+body {
 	background-image: url("graphics/bg.gif");
+	background-color: #373737;
 }
